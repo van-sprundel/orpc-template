@@ -1,0 +1,14 @@
+{
+  "name": "@your-app-name/shared",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    "dto/*": "./src/dto/*",
+    "contracts/*": "./src/contracts/*"
+  },
+  "dependencies": {
+    "@orpc/contract": "^1.8.5",
+    "zod": "^4.1.5"
+  }
+}

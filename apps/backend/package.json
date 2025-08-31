@@ -1,0 +1,21 @@
+{
+  "name": "@your-app-name/backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/index.ts"
+  },
+  "dependencies": {
+    "@your-app-name/shared": "workspace:*",
+    "@orpc/server": "^1.8.5",
+    "@prisma/client": "^6.15.0",
+    "@types/pg": "^8.15.5",
+    "better-auth": "^1.3.7",
+    "pg": "^8.16.3",
+    "prisma": "^6.15.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  }
+}
